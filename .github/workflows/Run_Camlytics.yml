@@ -1,0 +1,14 @@
+name: Trigger Google Apps Script
+
+on:
+  schedule:
+    - cron: "57 16 * * *"   # 23:58 WIB
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Apps Script WebApp
+        run: |
+          curl -X GET "https://script.google.com/macros/s/AKfycbyWlAYHu1GK_fju1cHhVRgf3xvqjPaFxdKfFJdEmNcd6M8lmmP0zApCAiANrvWDI6nAnQ/exec"
