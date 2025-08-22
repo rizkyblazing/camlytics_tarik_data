@@ -2,7 +2,8 @@ name: Trigger Google Apps Script
 
 on:
   schedule:
-    - cron: "52 23 * * *"   # 23:58 WIB
+    - cron: "58 23 * * *"   # 23:58 WIB
+    - cron: "59 06 * * *"   # 06:51 WIB (contoh tambahan)
   workflow_dispatch:
 
 jobs:
