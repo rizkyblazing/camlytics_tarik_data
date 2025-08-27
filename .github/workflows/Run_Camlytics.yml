@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Call Apps Script WebApp
         run: |
-          curl -X GET "https://script.google.com/macros/s/AKfycbxR4h902jFt55i29a5NpTIljwPWaLCnUFwL-OPIqKEVJ0D8trs2Msx98AqotB4N2Eufhw/exec"
+          curl -X GET "https://script.google.com/macros/s/AKfycbxja77vXi92rzOSBtAr3VquDaTkNldHbLcf22FQtdbegNzZZ0f0Jn6Nqs4pEOeP5d7rDQ/exec"
